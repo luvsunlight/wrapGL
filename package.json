@@ -23,9 +23,7 @@
 	},
 	"author": "prozac <516060659@qq.com> (https://github.com/luvsunlight)",
 	"license": "MIT",
-	"dependencies": {
-		"the-answer": "^1.0.0"
-	},
+	"dependencies": {},
 	"devDependencies": {
 		"babel-plugin-external-helpers": "^6.22.0",
 		"babel-preset-latest": "^6.24.1",

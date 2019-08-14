@@ -2,12 +2,13 @@ import resolve from "rollup-plugin-node-resolve"
 import babel from "rollup-plugin-babel"
 
 const DIST_PATH = "dist"
+const NAME = "GLManager"
 
 export default [
 	{
 		file: `${DIST_PATH}/index.umd.js`,
 		format: "umd",
-		name: "GL"
+		name: NAME
 	},
 	{
 		file: `${DIST_PATH}/index.es.js`,
