@@ -1,1 +1,1 @@
-> Here is wrap-gl
+> 🎃 A wrapped, elegant webGL library
