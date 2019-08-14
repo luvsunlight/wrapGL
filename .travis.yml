@@ -4,6 +4,8 @@ node_js:
     - 8
     - 6
 
+script: true
+
 jobs:
     include:
         # Define the release stage that runs semantic-release

@@ -1,42 +1,40 @@
 {
-  "name": "wrap-gl",
-  "version": "0.0.0-development",
-  "description": "A wrapped webGL lib",
-  "keywords": [
-    "webgl",
-    "wrap"
-  ],
-  "main": "dist/index.common.js",
-  "module": "dist/index.es.js",
-  "unpkg": "dist/index.umd.js",
-  "umd:main": "dist/index.umd.js",
-  "amd:main": "dist/index.umd.js",
-  "files": [
-    "dist",
-    "README.md"
-  ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup -c",
-    "prepublishOnly": "npm run build",
-    "pretest": "npm run build",
-    "semantic-release": "semantic-release"
-  },
-  "author": "prozac <516060659@qq.com> (https://github.com/luvsunlight)",
-  "license": "MIT",
-  "dependencies": {
-    "the-answer": "^1.0.0"
-  },
-  "devDependencies": {
-    "babel-plugin-external-helpers": "^6.22.0",
-    "babel-preset-latest": "^6.24.1",
-    "rollup": "^1.19.4",
-    "rollup-plugin-babel": "^3.0.7",
-    "rollup-plugin-node-resolve": "^5.2.0",
-    "semantic-release": "^15.13.19"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/luvsunlight/wrapGL.git"
-  }
+	"name": "wrap-gl",
+	"version": "0.0.0-development",
+	"description": "A wrapped webGL lib",
+	"keywords": [
+		"webgl",
+		"wrap"
+	],
+	"main": "dist/index.common.js",
+	"module": "dist/index.es.js",
+	"unpkg": "dist/index.umd.js",
+	"umd:main": "dist/index.umd.js",
+	"amd:main": "dist/index.umd.js",
+	"files": [
+		"dist",
+		"README.md"
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "rollup -c",
+		"semantic-release": "semantic-release"
+	},
+	"author": "prozac <516060659@qq.com> (https://github.com/luvsunlight)",
+	"license": "MIT",
+	"dependencies": {
+		"the-answer": "^1.0.0"
+	},
+	"devDependencies": {
+		"babel-plugin-external-helpers": "^6.22.0",
+		"babel-preset-latest": "^6.24.1",
+		"rollup": "^1.19.4",
+		"rollup-plugin-babel": "^3.0.7",
+		"rollup-plugin-node-resolve": "^5.2.0",
+		"semantic-release": "^15.13.19"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/luvsunlight/wrapGL.git"
+	}
 }
