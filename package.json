@@ -13,6 +13,7 @@
 	"amd:main": "dist/index.umd.js",
 	"files": [
 		"dist",
+		"src",
 		"README.md"
 	],
 	"scripts": {
@@ -23,7 +24,9 @@
 	},
 	"author": "prozac <516060659@qq.com> (https://github.com/luvsunlight)",
 	"license": "MIT",
-	"dependencies": {},
+	"dependencies": {
+		"rollup-plugin-uglify": "^6.0.2"
+	},
 	"devDependencies": {
 		"babel-plugin-external-helpers": "^6.22.0",
 		"babel-preset-latest": "^6.24.1",
