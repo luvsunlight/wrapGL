@@ -4,8 +4,8 @@
  * @copyRight: MIT License
  * @discription: A set of useful funcs for webGL-based development. Unlike some handy libs
  * like three.js <https://threejs.org/> or phaser <http://www.phaserengine.com/>, webGL's
- * original funcs are quite complicated and unfriendly for newbies.So here i select some
- * commom funcs to form this simple lib.
+ * original funcs are quite complicated and unfriendly for newbies.So here i add some
+ * commom funcs to this simple lib.
  */
 
 import { VS_draw, FS_draw } from "./shaders"
